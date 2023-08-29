@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: limegreen;
+    font-family: 'Arial', sans-serif;
+  }
+  h1, h2, h3, p {
+    text-align: center;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  .project {
+    border: 1px solid limegreen;
+    padding: 15px;
+    margin: 10px;
+  }
+  /* Navigation Bar Styles */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .project a {
+    display: block;
+    text-align: center;
+    margin-top: 10px; /* Optional: Add some top margin for spacing */
+  }
+
+  .container {
+    text-align: center; /* Center-align content */
+  }
+  
+  .container ul {
+    display: inline-block; /* Make the <ul> inline-block */
+    text-align: left;      /* Align text to the left within the <ul> */
+    padding-left: 20px;    /* Add some padding to the left of the <ul> */
+  }
+  
+  .container ul li {
+    margin-right: 20px; /* Add some right margin for spacing */
+  }
+
+  a {
+    color: lightblue;
+  }
