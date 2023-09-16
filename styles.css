@@ -15,31 +15,37 @@ body {
     padding: 0 20px;
   }
   .project {
-    border: 1px solid limegreen;
+    border: 1px solid #CCCCCC; /* Muted Gray Border */
     padding: 15px;
     margin: 10px;
   }
+  .project_image {
+    padding: 15px;
+    text-align: left;
+  }
 
   .project:hover {
-    box-shadow: 0 0 11px #00FF00; /* Neon Green Box Shadow */
+    box-shadow: 0 0 11px #00FF00; /* Neon Green Box Shadow on Hover */
   }
 
   /* Navigation Bar Styles */
   .navbar {
+    background-color: #333333; /* Dark gray background */
+    color: #f0f0f0; /* Light gray text */
     overflow: hidden;
-    background-color: #003366;
   }
   .navbar a {
     float: left;
-    display: block;
-    color: #008080;
+    display: inline-block;
+    color: #f0f0f0; /* Light gray text */
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
   }
   .navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #FF6600; /* Blue background on hover */
+    color: #f0f0f0; /* Light gray text on hover */
   }
   
   .project a {
@@ -63,13 +69,56 @@ body {
   }
 
   a {
-    color: #C0C0C0;
+    color: #FF6600; /* Bright Orange */
+
   }
 
-  /* Footer */
+  a:hover {
+    color: #FF5500; /* Slightly darker orange on hover */
+}
+
+/* Footer */
 .footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.banner {
+  background-image: url('banner-background.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #333333;
+  padding: 60px 0;
+}
+
+.banner img {
+  width: 150px; /* Adjust the size of your profile image */
+  border-radius: 50%; /* Makes the image round if it's a headshot */
+}
+
+.banner h1 {
+  font-size: 28px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007ACC;
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #00588A;
+}
