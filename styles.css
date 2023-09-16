@@ -1,7 +1,10 @@
 body {
-    background-color: black;
-    color: limegreen;
+    background-color: #333333;
+    color: #00BFFF;
     font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
   }
   h1, h2, h3, p {
     text-align: center;
@@ -9,13 +12,18 @@ body {
   .container {
     max-width: 800px;
     margin: auto;
-    padding: 20px;
+    padding: 0 20px;
   }
   .project {
     border: 1px solid limegreen;
     padding: 15px;
     margin: 10px;
   }
+
+  .project:hover {
+    box-shadow: 0 0 11px #00FF00; /* Neon Green Box Shadow */
+  }
+
   /* Navigation Bar Styles */
   .navbar {
     overflow: hidden;
@@ -23,7 +31,7 @@ body {
   }
   .navbar a {
     float: left;
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 20px;
@@ -55,5 +63,14 @@ body {
   }
 
   a {
-    color: lightblue;
+    color: #C0C0C0;
   }
+
+  /* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
